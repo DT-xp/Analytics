@@ -14,7 +14,7 @@
     let e = r.dataset.analytics || r.id || r.getAttribute("href") || r.innerText.trim();
     F.click(e);
   });
-})();
+
 if(!r)return;let e=r.dataset.analytics||r.id||r.getAttribute("href")||r.innerText.trim();F.click(e)});ee.addEventListener("click",()=>{H.classList.add("active"),R.focus()});re.addEventListener("click",()=>{H.classList.remove("active")});function I(t,r=!1){let e=document.createElement("div");e.className=`message ${r?"user-message":"bot-message"}`,e.innerHTML=`
         <div class="message-avatar">
             <i class="fas fa-${r?"user":"robot"}"></i>
